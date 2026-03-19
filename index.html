@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Fapowski</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="passcode-screen">
+    <div class="pass-card">
+      <div class="pass-logo">Fap<span>owski</span></div>
+      <p class="pass-subtitle">Tylko dla członków</p>
+      <div class="pass-lock-icon">
+        <span class="material-icons">lock</span>
+      </div>
+      <div class="pass-input-wrap">
+        <input type="password" id="passInput" class="pass-input" placeholder="Wprowadź hasło" autocomplete="off" autofocus />
+        <button class="pass-toggle" id="passToggle" type="button">
+          <span class="material-icons">visibility</span>
+        </button>
+      </div>
+      <p class="pass-error" id="passError"></p>
+      <button class="pass-btn" id="passBtn" type="button">Wejdź</button>
+    </div>
+  </div>
+
+  <button class="hamburger" id="hamburger" style="display:none" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+
+  <header class="top-header">
+    <a class="header-logo" href="#">
+      <div class="logo-icon">F</div>
+      <span class="logo-text">Fap<span>owski</span></span>
+    </a>
+    <div class="header-actions">
+      <button class="hbtn hbtn-search" title="Szukaj">
+        <span class="material-icons">search</span>
+      </button>
+      <button class="hbtn hbtn-pink">
+        <span class="hbtn-label">Na Żywo</span>
+      </button>
+      <button class="hbtn hbtn-cyan">
+        🔥 <span class="hbtn-label">Gorące</span>
+      </button>
+    </div>
+  </header>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-inner">
+      <div class="breadcrumb">
+        <a href="#">Home</a> / <a href="#">Hot</a> / Profil
+      </div>
+      <div class="sidebar-welcome">
+        <div class="welcome-dot">i</div>
+        <span>Witaj!</span>
+      </div>
+      <button class="sidebar-cta">
+        <span class="material-icons">upload</span>
+        Dodaj Modelkę
+        <span class="cta-badge">NEW</span>
+      </button>
+      <nav>
+        <ul class="sidebar-nav">
+          <li><a href="#"><span class="material-icons">person_outline</span> Zaloguj się</a></li>
+          <li><a href="#"><span class="material-icons">person_add_alt</span> Zarejestruj się</a></li>
+          <li><a href="#" class="highlight"><span class="material-icons" style="color:var(--btn-cyan);">radio_button_checked</span> WarsawLive</a></li>
+          <div class="nav-divider"></div>
+          <li><a href="#"><span class="material-icons" style="color:#f6993f;">local_fire_department</span> Na Topie</a></li>
+          <li><a href="#"><span class="material-icons">play_circle_outline</span> Skarbiec Wideo</a></li>
+          <li><a href="#"><span class="material-icons">shuffle</span> Losowo</a></li>
+          <div class="nav-divider"></div>
+          <li><a href="#"><span class="material-icons">favorite_border</span> Top Modelki — Polubienia</a></li>
+          <li><a href="#"><span class="material-icons">group</span> Top Modelki — Obserwujący</a></li>
+          <li><a href="#"><span class="material-icons">video_library</span> Popularne Wideo</a></li>
+          <li><a href="#"><span class="material-icons">star_border</span> Top Modelki — Wyszukiwania <span class="nav-badge">new</span></a></li>
+          <div class="nav-divider"></div>
+          <li><a href="#"><span class="material-icons">forum</span> Forum</a></li>
+          <li><a href="#"><span class="material-icons">chat_bubble_outline</span> Posty</a></li>
+          <li><a href="#"><span class="material-icons">mode_comment</span> Ostatnie Komentarze</a></li>
+          <div class="nav-divider"></div>
+          <li><a href="#"><span class="material-icons">mail_outline</span> Kontakt / <span class="dmca-red">DMCA</span></a></li>
+          <div class="nav-divider"></div>
+          <li><a href="#"><span style="font-size:20px;width:22px;text-align:center;flex-shrink:0;">🌐</span> Język</a></li>
+          <li><a href="#" style="color:var(--btn-pink);"><span class="material-icons" style="background:#1a1a1a;color:#fff;border-radius:50%;font-size:18px;padding:1px;">help_outline</span> Czym jest Fapowski.com?</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="page-wrap">
+
+```
+<div class="live-strip">
+  <div class="live-card lc-1">
+    <div class="live-top">
+      <div class="live-user-wrap"><span class="live-user">Viktor & Mila</span><i class="gender-couple">⚤</i></div>
+      <span class="live-badge">LIVE</span>
+    </div>
+  </div>
+  <div class="live-card lc-2">
+    <div class="live-top">
+      <div class="live-user-wrap"><span class="live-user">SweetZofia</span><span class="gender gender-f"><span class="material-icons">female</span></span></div>
+      <span class="live-badge">LIVE</span>
+    </div>
+  </div>
+  <div class="live-card lc-3">
+    <div class="live-top">
+      <div class="live-user-wrap"><span class="live-user">LenaWithEnzo</span><i class="gender-couple">⚤</i></div>
+      <span class="live-badge">LIVE</span>
+    </div>
+  </div>
+  <div class="live-card lc-4">
+    <div class="live-top">
+      <div class="live-user-wrap"><span class="live-user">DariaHot</span><i class="gender-couple">⚤</i></div>
+      <span class="live-badge">LIVE</span>
+    </div>
+  </div>
+  <div class="live-card lc-5">
+    <div class="live-top">
+      <div class="live-user-wrap"><span class="live-user">NaughtyKasia</span><span class="gender gender-f"><span class="material-icons">female</span></span></div>
+      <span class="live-badge">LIVE</span>
+    </div>
+  </div>
+  <div class="live-card lc-6">
+    <div class="live-top">
+      <div class="live-user-wrap"><span class="live-user">SofiaRouge</span><span class="gender gender-f"><span class="material-icons">female</span></span></div>
+      <span class="live-badge">LIVE</span>
+    </div>
+  </div>
+</div>
+
+<section class="profile-section fade-up">
+  <div class="avatar-wrap">
+    <div class="avatar-ring">
+      <div class="avatar-inner">
+        <div class="avatar-placeholder">
+          <span class="material-icons">person</span>
+          Your Photo
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="profile-info">
+    <h1 class="profile-name">Jane Willow</h1>
+    <p class="profile-sub">Janie, janewillow</p>
+    <div class="tags">
+      <span class="tag tag-yellow">DARMOWE</span>
+      <span class="tag tag-purple">Galeria</span>
+      <span class="tag tag-rose">Kanał</span>
+    </div>
+    <div class="actions">
+      <button class="abtn abtn-follow">Obserwuj</button>
+      <button class="abtn abtn-discuss">Dyskusja (7)</button>
+      <button class="like-btn" id="likeBtn">
+        <span class="material-icons">favorite_border</span>
+      </button>
+    </div>
+    <div class="stats">
+      <div class="stat"><span class="stat-num" id="mediaCount">0</span><span class="stat-label">Media</span></div>
+      <div class="stat"><span class="stat-num" id="likesCount">0</span><span class="stat-label">Polubienia</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery">
+  <div class="gallery-grid" id="galleryGrid"></div>
+  <div class="load-more-wrap">
+    <button class="load-more-btn" id="loadMoreBtn">
+      <span class="material-icons">expand_more</span>
+      Załaduj więcej
+    </button>
+  </div>
+</section>
+```
+
+  </div>
+
+  <script>
+/* ============================================================
+   app.js  –  Fapowski
+   images/ に連番で入れるだけで自動検出
+   profile.jpg / live01-06.jpg / work01.jpg, work02.jpg ...
+   ============================================================ */
+
+(function () {
+  const CORRECT_PASS = 'hillock7';
+  const SESSION_KEY  = 'fapowski_unlocked';
+  const screen    = document.getElementById('passcode-screen');
+  const input     = document.getElementById('passInput');
+  const btn       = document.getElementById('passBtn');
+  const errorMsg  = document.getElementById('passError');
+  const toggleBtn = document.getElementById('passToggle');
+
+  if (sessionStorage.getItem(SESSION_KEY) === '1') {
+    screen.style.display = 'none';
+    return;
+  }
+
+  toggleBtn.addEventListener('click', () => {
+    const isText = input.type === 'text';
+    input.type = isText ? 'password' : 'text';
+    toggleBtn.querySelector('.material-icons').textContent =
+      isText ? 'visibility' : 'visibility_off';
+  });
+
+  function tryUnlock() {
+    if (input.value === CORRECT_PASS) {
+      sessionStorage.setItem(SESSION_KEY, '1');
+      screen.classList.add('unlocked');
+      screen.addEventListener('animationend', () => { screen.style.display = 'none'; }, { once: true });
+    } else {
+      errorMsg.textContent = 'Nieprawidłowe hasło. Spróbuj ponownie.';
+      errorMsg.classList.add('show');
+      input.classList.add('shake');
+      input.value = '';
+      input.addEventListener('animationend', () => { input.classList.remove('shake'); }, { once: true });
+      setTimeout(() => errorMsg.classList.remove('show'), 3000);
+    }
+  }
+
+  btn.addEventListener('click', tryUnlock);
+  input.addEventListener('keydown', (e) => { if (e.key === 'Enter') tryUnlock(); });
+})();
+
+(function () {
+  const ham  = document.getElementById('hamburger');
+  const side = document.getElementById('sidebar');
+  if (!ham || !side) return;
+  ham.addEventListener('click', (e) => { e.stopPropagation(); side.classList.toggle('open'); });
+  document.addEventListener('click', (e) => {
+    if (!side.contains(e.target) && !ham.contains(e.target)) side.classList.remove('open');
+  });
+})();
+
+(function () {
+  document.querySelectorAll('.sidebar-nav a').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      document.querySelectorAll('.sidebar-nav a').forEach(l => l.classList.remove('active'));
+      link.classList.add('active');
+    });
+  });
+})();
+
+(function () {
+  const likeBtn = document.getElementById('likeBtn');
+  if (!likeBtn) return;
+  likeBtn.addEventListener('click', () => {
+    likeBtn.classList.toggle('liked');
+    likeBtn.querySelector('.material-icons').textContent =
+      likeBtn.classList.contains('liked') ? 'favorite' : 'favorite_border';
+  });
+})();
+
+const fadeObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) {
+      setTimeout(() => entry.target.classList.add('visible'), i * 55);
+      fadeObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.08 });
+
+document.querySelectorAll('.fade-up').forEach(el => fadeObserver.observe(el));
+
+function imageExists(src) {
+  return fetch(src, { method: 'HEAD' }).then(r => r.ok).catch(() => false);
+}
+
+async function detectSequential(prefix, ext, start, max) {
+  const found = [];
+  for (let i = start; i <= max; i++) {
+    const n = String(i).padStart(2, '0');
+    const src = `${prefix}${n}${ext}`;
+    const ok = await imageExists(src);
+    if (!ok) break;
+    found.push(src);
+  }
+  return found;
+}
+
+// 各work画像の固定Like数（10枚分プリセット、11枚目以降は自動計算）
+const WORK_LIKES = [6, 9, 7, 8, 6, 9, 7, 8, 6, 9];
+
+function getLikesForIndex(index) {
+  if (index < WORK_LIKES.length) return WORK_LIKES[index];
+  // 11枚目以降はインデックスを元に疑似固定値
+  const seed = (index * 2654435761) >>> 0;
+  return Math.floor(6 + (seed % 1000) / 1000 * 3);
+}
+
+function calcTotalLikes(count) {
+  let total = 0;
+  for (let i = 0; i < count; i++) total += getLikesForIndex(i);
+  return total;
+}
+
+const INITIAL_COUNT = 6;
+const LOAD_COUNT    = 4;
+const GC_COLORS = ['gc-1','gc-2','gc-3','gc-4','gc-5','gc-6','gc-7','gc-8','gc-9','gc-10','gc-11','gc-12'];
+
+(async function () {
+  if (await imageExists('images/profile.jpg')) {
+    const inner = document.querySelector('.avatar-inner');
+    if (inner) inner.innerHTML = '<img src="images/profile.jpg" alt="Profile">';
+  }
+
+  const liveCards = document.querySelectorAll('.live-card');
+  for (let i = 0; i < liveCards.length; i++) {
+    const n = String(i + 1).padStart(2, '0');
+    const src = `images/live${n}.jpg`;
+    if (await imageExists(src)) {
+      const img = document.createElement('img');
+      img.className = 'live-card-img';
+      img.src = src;
+      liveCards[i].insertBefore(img, liveCards[i].firstChild);
+    }
+  }
+
+  const workSrcs = await detectSequential('images/work', '.jpg', 1, 99);
+
+  // Media & Likes カウント更新
+  const mediaEl  = document.getElementById('mediaCount');
+  const likesEl  = document.getElementById('likesCount');
+  if (mediaEl) mediaEl.textContent = workSrcs.length;
+  if (likesEl) likesEl.textContent = calcTotalLikes(workSrcs.length);
+
+  applyGallery(workSrcs);
+})();
+
+function applyGallery(srcs) {
+  const grid    = document.getElementById('galleryGrid');
+  const loadBtn = document.getElementById('loadMoreBtn');
+  if (!grid) return;
+
+  // 画像がない場合はプレースホルダーを表示しない
+  if (srcs.length === 0) {
+    if (loadBtn) loadBtn.style.display = 'none';
+    return;
+  }
+
+  const list = srcs.map((src, i) => ({ src, label: `Work ${String(i + 1).padStart(2, '0')}` }));
+  let displayed = 0;
+
+  function createCard(work, index) {
+    const card = document.createElement('div');
+    card.className = `gallery-card ${GC_COLORS[index % GC_COLORS.length]} fade-up`;
+    const img = document.createElement('img');
+    img.src = work.src; img.alt = work.label;
+    card.appendChild(img);
+    const overlay = document.createElement('div');
+    overlay.className = 'gallery-overlay';
+    overlay.innerHTML = `<span class="gallery-label">${work.label}</span>`;
+    card.appendChild(overlay);
+    return card;
+  }
+
+  function renderCards(count) {
+    const end = Math.min(displayed + count, list.length);
+    for (let i = displayed; i < end; i++) {
+      const card = createCard(list[i], i);
+      grid.appendChild(card);
+      fadeObserver.observe(card);
+    }
+    displayed = end;
+    if (displayed >= list.length && loadBtn) loadBtn.style.display = 'none';
+  }
+
+  renderCards(INITIAL_COUNT);
+  if (loadBtn) loadBtn.addEventListener('click', () => renderCards(LOAD_COUNT));
+}
+
+</script>
+
+</body>
+</html>
